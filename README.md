@@ -4,4 +4,4 @@ This is the site for the Next Home 180 Realty Recruitment Website. Develop and d
 
 ## Preview
 
-Link coming soon
+[Site Link](https://next-home-180.netlify.com/)
