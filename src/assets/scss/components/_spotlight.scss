@@ -76,6 +76,13 @@
       margin-left: 0;
       margin-bottom: _size(element-margin);
     }
+
+    .video {
+      @include vendor('flex', '0 1 auto');
+      margin-left: 0;
+      margin-bottom: _size(element-margin);
+      height: 25em;
+    }
   }
 
   @include breakpoint(small) {
@@ -84,6 +91,13 @@
 
       img {
         width: 12em;
+      }
+    }
+    .video {
+      padding: 0.35em;
+      iframe {
+        width: 22em;
+        height: 10em;
       }
     }
   }
