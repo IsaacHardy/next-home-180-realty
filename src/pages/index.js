@@ -6,6 +6,7 @@ import Waypoint from 'react-waypoint';
 
 import Header from '../components/Header';
 import Nav from '../components/Nav';
+import officeImage from '../assets/images/pic01.jpg';
 
 class Index extends React.Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
+          <section id="culture" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
@@ -83,33 +84,141 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="office" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>OUR OFFICE</h2>
+                </header>
+                <p>
+                  We support the on-the-go agent with a multitude of mobile
+                  resources. Our agents are fully equipped to meet their
+                  client’s needs anywhere!
+                  <br />
+                  <br />
+                  Yet when it is time to meet a client, make a few phone calls,
+                  or prepare a presentation, we also offer an office that is
+                  lean, efficient and productive with a great work environment
+                  and culture. Our in-office resources include workstations, a
+                  printing and material creation station, a conference room for
+                  private meetings, and a plush lounge for casual get-togethers.
+                  <br />
+                  <br />
+                  The design is fresh, clean and modern. And meeting clients
+                  here will speak volumes about you and your real estate
+                  business.
+                </p>
+                <ul className="actions">
+                  <li>
+                    <Link to="/generic" className="button">
+                      Learn More
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <span className="image">
+                <img src={officeImage} alt="" />
+              </span>
+            </div>
+          </section>
+
+          <section id="benefits" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>OUR BENEFITS</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code" />
-                <h3>Ipsum consequat</h3>
+                <h3>Savings</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Our agent’s return on investment, along with superior
+                  technology, lower royalty and service fees, vendor selections,
+                  and other services are all designed to substantially drive
+                  down the costs for agents to pursue their careers.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code" />
+                <h3>AFFORDABLE & FLEXIBLE ALL-INCLUSIVE FEES</h3>
+                <p>
+                  Our Agent Fee Structure is as simple as you can get. We offer
+                  two models: a monthly flat rate fee, or a gross commission
+                  income fee, with the ability to change plans every six months.
+                  In either case, there are no surprises. And never any desk,
+                  office, E&O, or any other fees. Period.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code" />
+                <h3>FREE BUSINESS CARDS & SIGN</h3>
+                <p>
+                  When you join us, we provide you with your first order of
+                  company business cards as well as your first sign.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code" />
+                <h3>SUPPORT & EDUCATION, TRAINING & MENTORING</h3>
+                <p>
+                  Knowledge is power and essential to your success. Weekly
+                  trainings and education sessions are accessible both in-office
+                  and remotely. In addition there are online training videos,
+                  webinars and publications to improve your abilities and
+                  increase your income. And for brand new agents, we offer a
+                  mentoring program to develop the knowledge and confidence
+                  before you go off on your own.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style1 fa-code" />
+                <h3>CONSUMER-CENTRIC BRAND</h3>
+                <p>
+                  Design and branding created with consumers at the core.
+                  Connect and resonate with your clients through a fresh
+                  culture, enticing design and meaningful brand.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy" />
-                <h3>Amed sed feugiat</h3>
+                <h3>NO FLOOR TIME</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Aside from referrals, in many cases, buyers and sellers find
+                  their prospective agents online. That is where you should be
+                  to greet them. Our programs assure agents a strong social
+                  media presence to ensure they are found.
                 </p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond" />
-                <h3>Dolor nullam</h3>
+                <h3>MOBILE TECHNOLOGY</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Life is on the move and real estate happens everywhere.
+                  Transact, market, and execute your business anywhere, anytime.
+                  And to make it even easier, our technology, advertising,
+                  marketing and training are all integrated … and part of the
+                  package. Experience a comprehensive platform and full set of
+                  easy–to-use services all in one place.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond" />
+                <h3>COLLABORATIVE ENVIRONMENT</h3>
+                <p>
+                  We are stronger together. Be a market and prospecting expert
+                  by sharing ideas, trying new practices and staying current for
+                  a thriving business tomorrow.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond" />
+                <h3>FREE EXCLUSIVE LEADS</h3>
+                <p>
+                  Our leads are generated from a variety of sources that we
+                  provide, including our website, the Featured Listings program,
+                  Mobile Connect, Reach150, real estate property website
+                  profiles, social media, and local marketing tailored to Orange
+                  County. We are about providing quality leads, not quantity or
+                  time-consuming leads.
                 </p>
               </li>
             </ul>
@@ -124,7 +233,7 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="tech" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>
@@ -177,7 +286,7 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="inside" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>

@@ -11,23 +11,28 @@ const Nav = ({ sticky }) => (
       offset={-300}
     >
       <li>
-        <Scroll type="id" element="intro">
-          <a href="#">OUR CULTURE</a>
+        <Scroll type="id" element="culture">
+          <a href="#">Culture</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="first">
-          <a href="#">First Section</a>
+        <Scroll type="id" element="office">
+          <a href="#">Office</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="second">
-          <a href="#">Second Section</a>
+        <Scroll type="id" element="benefits">
+          <a href="#">Benefits</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="cta">
-          <a href="#">Get Started</a>
+        <Scroll type="id" element="tech">
+          <a href="#">Technology & Marketing</a>
+        </Scroll>
+      </li>
+      <li>
+        <Scroll type="id" element="inside">
+          <a href="#">Inside NextHome</a>
         </Scroll>
       </li>
     </Scrollspy>
