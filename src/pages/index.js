@@ -6,7 +6,6 @@ import Waypoint from 'react-waypoint';
 
 import Header from '../components/Header';
 import Nav from '../components/Nav';
-import pic01 from '../assets/images/pic01.jpg';
 
 class Index extends React.Component {
   constructor(props) {
@@ -42,13 +41,24 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>OUR CULTURE</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  We believe in a simple formula: Hire top-notch people. Train
+                  and support them. And provide all the latest tools and
+                  technology.
+                  <br />
+                  <br />
+                  Our culture is reflective of this philosophy – our branding
+                  and marketing is designed for today’s consumer, we encourage
+                  collaboration, and celebrate the unique strengths and talents
+                  of our agents. Teamwork is promoted, as it is our belief that
+                  when we work together we can accomplish so much more!
+                  <br />
+                  <br />
+                  Cutting-edge technology, support & training, and teamwork mean
+                  that NextHome Coastal agents have a better, balanced life. It
+                  is just that simple.
                 </p>
                 <ul className="actions">
                   <li>
@@ -58,8 +68,17 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="image">
-                <img src={pic01} alt="" />
+              <span className="video">
+                <iframe
+                  src="https://player.vimeo.com/video/120744081?theme=none&amp;wmode=opaque"
+                  width="760"
+                  height="428"
+                  frameBorder="0"
+                  title="NextHome Products &amp; Services"
+                  webkitallowfullscreen=""
+                  mozallowfullscreen=""
+                  allowFullScreen=""
+                />
               </span>
             </div>
           </section>

@@ -12,7 +12,7 @@ const Nav = ({ sticky }) => (
     >
       <li>
         <Scroll type="id" element="intro">
-          <a href="#">Introduction</a>
+          <a href="#">OUR CULTURE</a>
         </Scroll>
       </li>
       <li>
