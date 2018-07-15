@@ -58,8 +58,8 @@ class Index extends React.Component {
                   <br />
                   <br />
                   Cutting-edge technology, support & training, and teamwork mean
-                  that NextHome Coastal agents have a better, balanced life. It
-                  is just that simple.
+                  that NextHome 180° Realty agents have a better, balanced life.
+                  It is just that simple.
                 </p>
                 <ul className="actions">
                   <li>
@@ -100,8 +100,9 @@ class Index extends React.Component {
                   or prepare a presentation, we also offer an office that is
                   lean, efficient and productive with a great work environment
                   and culture. Our in-office resources include workstations, a
-                  printing and material creation station, a conference room for
-                  private meetings, and a plush lounge for casual get-togethers.
+                  printing and material creation station, a conference room, a
+                  closed office for private meetings, and a plush lounge for
+                  casual get-togethers.
                   <br />
                   <br />
                   The design is fresh, clean and modern. And meeting clients
@@ -128,7 +129,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code" />
+                <span className="icon major style1 fa-money" />
                 <h3>Savings</h3>
                 <p>
                   Our agent’s return on investment, along with superior
@@ -138,7 +139,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-code" />
+                <span className="icon major style1 fa-usd" />
                 <h3>AFFORDABLE & FLEXIBLE ALL-INCLUSIVE FEES</h3>
                 <p>
                   Our Agent Fee Structure is as simple as you can get. We offer
@@ -149,7 +150,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-code" />
+                <span className="icon major style1 fa-gift" />
                 <h3>FREE BUSINESS CARDS & SIGN</h3>
                 <p>
                   When you join us, we provide you with your first order of
@@ -157,7 +158,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-code" />
+                <span className="icon major style1 fa-graduation-cap" />
                 <h3>SUPPORT & EDUCATION, TRAINING & MENTORING</h3>
                 <p>
                   Knowledge is power and essential to your success. Weekly
@@ -170,7 +171,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style1 fa-code" />
+                <span className="icon major style1 fa-user" />
                 <h3>CONSUMER-CENTRIC BRAND</h3>
                 <p>
                   Design and branding created with consumers at the core.
@@ -179,7 +180,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy" />
+                <span className="icon major style3 fa-wifi" />
                 <h3>NO FLOOR TIME</h3>
                 <p>
                   Aside from referrals, in many cases, buyers and sellers find
@@ -189,7 +190,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond" />
+                <span className="icon major style5 fa-mobile" />
                 <h3>MOBILE TECHNOLOGY</h3>
                 <p>
                   Life is on the move and real estate happens everywhere.
@@ -201,7 +202,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond" />
+                <span className="icon major style5 fa-users" />
                 <h3>COLLABORATIVE ENVIRONMENT</h3>
                 <p>
                   We are stronger together. Be a market and prospecting expert
@@ -210,7 +211,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond" />
+                <span className="icon major style5 fa-rss" />
                 <h3>FREE EXCLUSIVE LEADS</h3>
                 <p>
                   Our leads are generated from a variety of sources that we
