@@ -10,6 +10,7 @@ const Nav = ({ sticky }) => (
       currentClassName="is-active"
       offset={-300}
     >
+      <div id="bracket" />
       <li>
         <Scroll type="id" element="culture">
           <a href="#">Culture</a>
@@ -35,6 +36,7 @@ const Nav = ({ sticky }) => (
           <a href="#">Inside NextHome</a>
         </Scroll>
       </li>
+      <div id="arrow" />
     </Scrollspy>
   </nav>
 );

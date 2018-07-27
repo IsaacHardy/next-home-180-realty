@@ -21,11 +21,12 @@
   width: 100%;
   max-width: 100%;
   padding: 1em;
-  background-color: _palette(invert, bg-alt);
-  border-top-left-radius: _size(border-radius-main);
-  border-top-right-radius: _size(border-radius-main);
+  background-color: _palette(invert, bg);
+  // border-top-left-radius: _size(border-radius-main);
+  // border-top-right-radius: _size(border-radius-main);
   cursor: default;
   text-align: center;
+  border-bottom: 2px solid _palette(invert, bg-alt);
 
   & + #main {
     padding-top: 4.25em;
@@ -39,7 +40,7 @@
     li {
       @include vendor('transition', ('margin #{_duration(transition)} ease'));
       display: inline-block;
-      margin: 0 0.35em;
+      margin: 0 0.85em;
       padding: 0;
       vertical-align: middle;
 
@@ -51,19 +52,19 @@
         display: inline-block;
         height: 2.25em;
         line-height: 2.25em;
-        padding: 0 1.25em;
+        padding: 0 0.75em;
         border: 0;
-        border-radius: _size(border-radius);
+        // border-radius: _size(border-radius);
         box-shadow: inset 0 0 0 1px transparent;
+        // background-color: _palette(invert, bg);
 
         &:hover {
-          background-color: _palette(invert, border-bg);
+          border-bottom: 3px solid _palette(invert, bg-alt);
         }
 
-        // &.active {
-        // 	background-color: _palette(invert, bg);
-        // 	box-shadow: none;
-        // }
+        &.active {
+          border-bottom: 3px solid _palette(invert, bg-alt);
+        }
       }
       &.is-active {
         a {
@@ -78,7 +79,7 @@
     position: fixed;
     top: 0;
     padding: 0.5em 1em;
-    background-color: transparentize(_palette(invert, bg-alt), 0.05);
+    background-color: transparentize(_palette(invert, bg), 0.05);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     z-index: _misc(z-index-base);
@@ -89,6 +90,13 @@
 
         a {
           font-size: 0.9em;
+
+          &:hover {
+            background-color: _palette(invert, bg);
+          }
+          &.active {
+            border-bottom: 3px solid _palette(invert, bg-alt);
+          }
         }
       }
     }
@@ -100,5 +108,26 @@
     & + #main {
       padding-top: 0;
     }
+  }
+
+  #bracket,
+  #arrow {
+    @include vendor('transition', ('margin #{_duration(transition)} ease'));
+    display: inline-block;
+    margin: 0 0.35em;
+    padding: 0;
+    vertical-align: middle;
+    width: 1em;
+    height: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #bracket {
+    background-image: url('../images/bracket.png');
+  }
+
+  #arrow {
+    background-image: url('../images/arrow.png');
   }
 }
