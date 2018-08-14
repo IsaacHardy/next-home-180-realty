@@ -7,27 +7,27 @@
 /* Header */
 
 #header {
-  @include padding(10.5em, 5em, (0, 0, -2em, 0));
+  @include padding(8em, 5em, (0, 0, -2em, 0));
   text-align: center;
   position: relative;
 
   @include breakpoint(large) {
-    @include padding(10.5em, 4em, (0, 0, -2em, 0));
+    @include padding(8em, 4em, (0, 0, -2em, 0));
   }
 
   @include breakpoint(medium) {
-    @include padding(8em, 3em, (0, 0, -2em, 0));
+    @include padding(6em, 3em, (0, 0, -2em, 0));
   }
 
   @include breakpoint(small) {
-    @include padding(6em, 2em, (0, 0, -1em, 0));
+    @include padding(4em, 2em, (0, 0, -1em, 0));
   }
 
   @include breakpoint(xsmall) {
-    @include padding(6em, 1.5em, (0, 0, -1em, 0));
+    @include padding(4em, 1.5em, (0, 0, -1em, 0));
   }
 
   @include breakpoint(xxsmall) {
-    @include padding(5em, 1em, (0, 0, -1em, 0));
+    @include padding(3em, 1em, (0, 0, -1em, 0));
   }
 }
