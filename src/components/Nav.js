@@ -10,33 +10,32 @@ const Nav = ({ sticky }) => (
       <img src={logo} alt="" />
     </span>
     <Scrollspy
-      items={['intro', 'first', 'second', 'cta']}
+      items={['culture', 'office', 'benefits', 'tech', 'inside']}
       currentClassName="is-active"
-      offset={-300}
     >
       <div id="bracket" />
       <li>
-        <Scroll type="id" element="culture">
+        <Scroll type="id" element="culture" offset={-14}>
           <a href="#">Culture</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="office">
+        <Scroll type="id" element="office" offset={-14}>
           <a href="#">Office</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="benefits">
+        <Scroll type="id" element="benefits" offset={-14}>
           <a href="#">Benefits</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="tech">
+        <Scroll type="id" element="tech" offset={-14}>
           <a href="#">Technology & Marketing</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="inside">
+        <Scroll type="id" element="inside" offset={-14}>
           <a href="#">Inside NextHome</a>
         </Scroll>
       </li>

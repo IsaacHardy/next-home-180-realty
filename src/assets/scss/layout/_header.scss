@@ -10,24 +10,29 @@
   @include padding(8em, 5em, (0, 0, -2em, 0));
   text-align: center;
   position: relative;
+  background-color: _palette(fg-bold);
 
-  @include breakpoint(large) {
-    @include padding(8em, 4em, (0, 0, -2em, 0));
+  h1 {
+    color: _palette(accent);
+    font-weight: 800;
   }
-
-  @include breakpoint(medium) {
-    @include padding(6em, 3em, (0, 0, -2em, 0));
-  }
-
-  @include breakpoint(small) {
-    @include padding(4em, 2em, (0, 0, -1em, 0));
-  }
-
-  @include breakpoint(xsmall) {
-    @include padding(4em, 1.5em, (0, 0, -1em, 0));
-  }
-
-  @include breakpoint(xxsmall) {
-    @include padding(3em, 1em, (0, 0, -1em, 0));
-  }
+  // @include breakpoint(large) {
+  //   @include padding(8em, 4em, (0, 0, -2em, 0));
+  // }
+  //
+  // @include breakpoint(medium) {
+  //   @include padding(6em, 3em, (0, 0, -2em, 0));
+  // }
+  //
+  // @include breakpoint(small) {
+  //   @include padding(4em, 2em, (0, 0, -1em, 0));
+  // }
+  //
+  // @include breakpoint(xsmall) {
+  //   @include padding(4em, 1.5em, (0, 0, -1em, 0));
+  // }
+  //
+  // @include breakpoint(xxsmall) {
+  //   @include padding(3em, 1em, (0, 0, -1em, 0));
+  // }
 }

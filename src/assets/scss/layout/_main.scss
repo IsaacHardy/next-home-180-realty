@@ -39,7 +39,7 @@
 
   @include breakpoint(large) {
     > .main {
-      @include padding(4em, 4em);
+      @include padding(3em, 3em);
 
       > .image.main:first-child {
         margin: -4em 0 4em -4em;

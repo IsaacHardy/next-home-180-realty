@@ -1,19 +1,20 @@
 import React from 'react';
-import FixedBackground from './FixedBackground';
-// import Link from 'gatsby-link';
-
-import logo from '../assets/images/overlay.png';
 
 const Header = () => (
   <header id="header">
-    <FixedBackground uri={logo} />
-    <div className="spotlight">
-      <div className="content">
-        <h1 className="header-text">
-          JOIN THE MOST INNOVATIVE REAL ESTATE COMPANY IN MIDDLE GA
-        </h1>
-      </div>
-    </div>
+    <h1>JOIN THE MOST INNOVATIVE REAL ESTATE COMPANY IN MIDDLE GA</h1>
+    <span className="video">
+      <iframe
+        src="https://player.vimeo.com/video/120744081?theme=none&amp;wmode=opaque"
+        width="760"
+        height="428"
+        frameBorder="0"
+        title="NextHome Products &amp; Services"
+        webkitallowfullscreen=""
+        mozallowfullscreen=""
+        allowFullScreen=""
+      />
+    </span>
   </header>
 );
 

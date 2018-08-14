@@ -6,6 +6,8 @@ import Waypoint from 'react-waypoint';
 
 import Header from '../components/Header';
 import Nav from '../components/Nav';
+import FixedBackground from '../components/FixedBackground';
+import background from '../assets/images/overlay.png';
 import officeImage from '../assets/images/pic01.jpg';
 
 class Index extends React.Component {
@@ -39,11 +41,9 @@ class Index extends React.Component {
 
         <div id="main">
           <section id="culture" className="main">
+            <FixedBackground uri={background} text={'OUR CULTURE'} />
             <div className="spotlight">
               <div className="content">
-                <header className="major">
-                  <h2>OUR CULTURE</h2>
-                </header>
                 <p>
                   We believe in a simple formula: Hire top-notch people. Train
                   and support them. And provide all the latest tools and
@@ -69,27 +69,13 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="video">
-                <iframe
-                  src="https://player.vimeo.com/video/120744081?theme=none&amp;wmode=opaque"
-                  width="760"
-                  height="428"
-                  frameBorder="0"
-                  title="NextHome Products &amp; Services"
-                  webkitallowfullscreen=""
-                  mozallowfullscreen=""
-                  allowFullScreen=""
-                />
-              </span>
             </div>
           </section>
 
           <section id="office" className="main">
+            <FixedBackground uri={background} text={'OUR OFFICE'} />
             <div className="spotlight">
               <div className="content">
-                <header className="major">
-                  <h2>OUR OFFICE</h2>
-                </header>
                 <p>
                   We support the on-the-go agent with a multitude of mobile
                   resources. Our agents are fully equipped to meet their
