@@ -1,0 +1,14 @@
+.fixed-background {
+  position: absolute !important;
+  background-attachment: fixed !important;
+  background-position: center top;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  -webkit-perspective: 1px;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}

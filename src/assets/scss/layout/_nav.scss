@@ -19,14 +19,14 @@
   @include color-typography(invert);
   position: absolute;
   display: flex;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.075);
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 100%;
-  padding: 1em;
+  padding: 0.5em;
+  z-index: 10000;
   background-color: _palette(fg-bold);
-  // border-top-left-radius: _size(border-radius-main);
-  // border-top-right-radius: _size(border-radius-main);
   cursor: default;
   text-align: center;
 

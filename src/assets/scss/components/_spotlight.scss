@@ -5,11 +5,11 @@
 ///
 
 /* Spotlight */
-
 .spotlight {
   @include vendor('display', 'flex');
   @include vendor('align-items', 'center');
   margin: 0 0 _size(element-margin) 0;
+  position: relative;
 
   .content {
     @include vendor('flex', '1');
@@ -49,6 +49,11 @@
       border-radius: 100%;
       width: 35em;
     }
+  }
+  .header-text {
+    font-weight: 800;
+    padding: 1em;
+    border: 5px solid _palette(fg-bold);
   }
 
   @include breakpoint(medium) {

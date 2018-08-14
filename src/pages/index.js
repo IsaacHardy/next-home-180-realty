@@ -37,8 +37,6 @@ class Index extends React.Component {
 
         <Header />
 
-        <div className="spacer" />
-
         <div id="main">
           <section id="culture" className="main">
             <div className="spotlight">
