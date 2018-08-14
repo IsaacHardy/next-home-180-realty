@@ -1,10 +1,14 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
+import logo from '../assets/images/logo1.png';
 
 // eslint-disable-next-line
 const Nav = ({ sticky }) => (
   <nav id="nav" className={sticky ? 'alt' : ''}>
+    <span className="logo">
+      <img src={logo} alt="" />
+    </span>
     <Scrollspy
       items={['intro', 'first', 'second', 'cta']}
       currentClassName="is-active"

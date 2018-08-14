@@ -29,13 +29,14 @@ class Index extends React.Component {
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
 
-        <Header />
-
+        <Nav sticky={this.state.stickyNav} />
         <Waypoint
           onEnter={this.handleWaypointEnter}
           onLeave={this.handleWaypointLeave}
         />
-        <Nav sticky={this.state.stickyNav} />
+
+        <Header />
+
         <div className="spacer" />
 
         <div id="main">
