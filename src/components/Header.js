@@ -10,7 +10,7 @@ const Header = () => (
     <div className="spotlight">
       <div className="content">
         <h1 className="header-text">
-          JOIN THE MOST INAVETIVE REAL ESTATE COMPANY IN MIDDLE GA
+          JOIN THE MOST INNOVATIVE REAL ESTATE COMPANY IN MIDDLE GA
         </h1>
       </div>
     </div>
