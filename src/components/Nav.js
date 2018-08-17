@@ -15,12 +15,12 @@ const Nav = ({ sticky }) => (
     >
       <div id="bracket" />
       <li>
-        <Scroll type="id" element="culture" offset={-14}>
+        <Scroll type="id" element="culture" offset={-104}>
           <a href="#">Culture</a>
         </Scroll>
       </li>
       <li>
-        <Scroll type="id" element="office" offset={-14}>
+        <Scroll type="id" element="office" offset={-104}>
           <a href="#">Office</a>
         </Scroll>
       </li>
