@@ -234,7 +234,8 @@ class Index extends React.Component {
                   <h2>Ipsum consequat</h2>
                   <p>
                     Donec imperdiet consequat consequat. Suspendisse feugiat
-                    congue<br />
+                    congue
+                    <br />
                     posuere. Nulla massa urna, fermentum eget quam aliquet.
                   </p>
                 </header>
@@ -293,7 +294,8 @@ class Index extends React.Component {
                   <h2>Congue imperdiet</h2>
                   <p>
                     Donec imperdiet consequat consequat. Suspendisse feugiat
-                    congue<br />
+                    congue
+                    <br />
                     posuere. Nulla massa urna, fermentum eget quam aliquet.
                   </p>
                 </header>

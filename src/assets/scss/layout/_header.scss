@@ -7,8 +7,9 @@
 /* Header */
 
 #header {
-  @include padding(6em, 5em, (0, 0, -2em, 0));
-  text-align: center;
+  @include color(invert);
+  @include padding(2em, 5em, (0, 0, -2em, 0));
+  text-align: left;
   position: relative;
   background-color: _palette(fg-bold);
 
@@ -16,6 +17,12 @@
     color: _palette(accent);
     font-weight: 800;
     padding: 1em 0em;
+  }
+
+  .spotlight {
+    .image {
+      border: 3px solid _palette(accent);
+    }
   }
   // @include breakpoint(large) {
   //   @include padding(8em, 4em, (0, 0, -2em, 0));
