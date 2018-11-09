@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import Iframe from 'react-iframe';
-import officeImage from '../assets/images/pic01.jpg';
+import officeImage from '../assets/images/SignageBackground.png';
 
 class Header extends React.Component {
   constructor(props) {

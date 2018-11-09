@@ -8,7 +8,7 @@
 
 #header {
   @include color(invert);
-  @include padding(2em, 5em, (0, 0, -2em, 0));
+  @include padding(4em, 2em, (0, 0, -2em, 0));
   text-align: left;
   position: relative;
   background-color: _palette(fg-bold);

@@ -8,7 +8,7 @@
 .spotlight {
   @include vendor('display', 'flex');
   @include vendor('align-items', 'center');
-  @include padding(4em, 4em);
+  padding: 4em 4em 5em 4em;
   margin: 0 0 _size(element-margin) 0;
   position: relative;
 
@@ -35,7 +35,7 @@
     img {
       display: block;
       border-radius: 100%;
-      width: 20em;
+      width: 26em;
     }
   }
   .video {
@@ -57,7 +57,7 @@
 
   @include breakpoint(medium) {
     @include vendor('flex-direction', 'column-reverse');
-    @include padding(4em, 3em);
+    padding: 4em 3em 5em 3em;
     text-align: center;
 
     .content {
@@ -91,7 +91,7 @@
   }
 
   @include breakpoint(small) {
-    @include padding(3em, 2em);
+    padding: 3em 2em 5em 2em;
     .image {
       padding: 0.35em;
 
