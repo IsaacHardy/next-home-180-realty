@@ -8,12 +8,13 @@
 
 #header {
   @include color(invert);
-  @include padding(4em, 2em, (0, 0, -2em, 0));
+  // @include padding(4em, 2em, (0, 0, -2em, 0));
   text-align: left;
   position: relative;
   background-color: _palette(fg-bold);
   display: flex;
   height: 100vh;
+  width: 300%; // 100% * (How ever many nav items exist)
 
   h1 {
     color: _palette(accent);

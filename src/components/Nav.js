@@ -21,6 +21,11 @@ const Nav = ({ sticky }) => (
           <a href="#">Culture</a>
         </Scroll>
       </li>
+      <li>
+        <Scroll type="id" element="test" offset={0}>
+          <a href="#">Test</a>
+        </Scroll>
+      </li>
       <div id="arrow" />
     </Scrollspy>
   </nav>

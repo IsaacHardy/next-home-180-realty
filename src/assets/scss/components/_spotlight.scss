@@ -8,13 +8,13 @@
 .spotlight {
   @include vendor('display', 'flex');
   @include vendor('align-items', 'center');
-  padding: 3em 4em 5em 4em;
-  margin: 0 0 _size(element-margin) 0;
+  // padding: 3em 4em 5em 4em;
+  // margin: 0 0 _size(element-margin) 0;
   position: relative;
 
   .content {
     @include vendor('flex', '1');
-
+    padding: 3em 4em 5em 4em;
     > :last-child {
       margin-bottom: 0;
     }
@@ -29,6 +29,7 @@
   .image {
     display: inline-block;
     margin-left: 4em;
+    margin-right: 4em;
     border-radius: 100%;
     border: solid 1px;
 
