@@ -8,7 +8,7 @@
 .spotlight {
   @include vendor('display', 'flex');
   @include vendor('align-items', 'center');
-  padding: 4em 4em 5em 4em;
+  padding: 3em 4em 5em 4em;
   margin: 0 0 _size(element-margin) 0;
   position: relative;
 

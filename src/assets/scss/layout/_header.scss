@@ -12,6 +12,8 @@
   text-align: left;
   position: relative;
   background-color: _palette(fg-bold);
+  display: flex;
+  height: 100vh;
 
   h1 {
     color: _palette(accent);
@@ -20,20 +22,27 @@
   }
 
   .spotlight {
+    min-width: 100vw;
     .image {
       border: 3px solid _palette(accent);
     }
   }
   // @include breakpoint(large) {
-  //   @include padding(8em, 4em, (0, 0, -2em, 0));
+  //   .spotlight {
+  //     min-width: 100vw;
+  //   }
   // }
-  //
+
   // @include breakpoint(medium) {
-  //   @include padding(6em, 3em, (0, 0, -2em, 0));
+  //   .spotlight {
+  //     min-width: 100vw;
+  //   }
   // }
   //
   // @include breakpoint(small) {
-  //   @include padding(4em, 2em, (0, 0, -1em, 0));
+  //   .spotlight {
+  //     min-width: 100vw;
+  //   }
   // }
   //
   // @include breakpoint(xsmall) {

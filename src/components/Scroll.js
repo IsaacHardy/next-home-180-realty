@@ -44,14 +44,15 @@ class Scroll extends Component {
   // eslint-disable-next-line
   scrollTo(element, offSet = 0, timeout = null) {
     const elemPos = element
-      ? element.getBoundingClientRect().top + window.pageYOffset
+      ? element.getBoundingClientRect().left + window.pageXOffset
       : 0;
+
     if (timeout) {
       setTimeout(() => {
-        window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
+        window.scroll({ top: 0, left: elemPos + offSet, behavior: 'smooth' });
       }, timeout);
     } else {
-      window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
+      window.scroll({ top: 0, left: elemPos + offSet, behavior: 'smooth' });
     }
   }
   render() {
