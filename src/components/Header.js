@@ -19,7 +19,7 @@ class Header extends React.Component {
   };
   render() {
     return (
-      <header id="header">
+      <header id="header" className="dimmed">
         <div className="spotlight">
           <div id="start" className="content">
             <h1>THE FUTURE IN REAL ESTATE</h1>
@@ -147,6 +147,7 @@ class Header extends React.Component {
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
+          overlayClassName="dimmed"
           style={{
             overlay: { position: 'absolute' },
             content: {
@@ -167,27 +168,26 @@ class Header extends React.Component {
               height="100%"
               width="100%"
               styles={{
-                position: 'absolute',
+                position: 'fixed',
                 zIndex: 10000000,
-                top: 0,
-                left: 0,
+                top: '50%',
+                left: '50%',
+                width: '85vw',
+                height: '85vh',
+                transform: 'translate(-50%, -50%)',
               }}
             />
-            <button
-              style={{
-                color: 'red',
-                border: '1px solid red',
-                zIndex: 10000000,
-                position: 'absolute',
-                top: '5%',
-                left: '5%',
-              }}
-              onClick={this.closeModal}
-            >
-              Close Button
-            </button>
           </span>
         </Modal>
+        <button
+          className="closeButton"
+          style={{
+            display: this.state.modalIsOpen ? 'block' : 'none',
+          }}
+          onClick={this.closeModal}
+        >
+          Close
+        </button>
       </header>
     );
   }
